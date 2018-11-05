@@ -1,0 +1,4 @@
+[submodule "kodi"]
+	path = kodi
+	url = https://github.com/vlmaksime/repository.vlmaksime.git
+	branch = gh-pages
