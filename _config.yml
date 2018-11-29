@@ -1,7 +1,9 @@
-﻿title: vl.maksime Add-on repository
-#email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Домашняя страница vl.maksime, aka Владимир Максименко.
+# Site settings
+lang: ru
+title: vl.maksime GitHub Блог
+description: >-
+  Зачем мне нужен этот блог, пока не знаю...
+  Раз завел, пусть будет.
 github_username:  vlmaksime
 
 # Build settings
@@ -9,5 +11,4 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-exclude:
-  - kodi/sources/
+  - jekyll-redirect-from
