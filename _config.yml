@@ -1,14 +1,29 @@
 # Site settings
-lang: ru
 title: vl.maksime GitHub Блог
-description: >-
-  Зачем мне нужен этот блог, пока не знаю...
-  Раз завел, пусть будет.
+email: vl.maksime@gmail.com
+description: Блог vl.maksime
+baseurl: ""
+url: "https://vlmaksime.github.io"
 github_username:  vlmaksime
+
+# Layout settings
+header_type: default  # values [ drawer, default ]
+post_type: default    # values [ highlight, default ]
+pagination_type: default  # values [ ops, default ]
+
+more_vert:
+  option1:
+    name: Блог
+    link: https://vlmaksime.github.io/
+  option2:
+    name: Репозиторий дополнений KODI
+    link: https://vlmaksime.github.io/repository.vlmaksime/
+
+disqus: false
+
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: "vlmaksime/jekyll-mdl"
 plugins:
   - jekyll-feed
-  - jekyll-redirect-from
