@@ -1,29 +1,24 @@
 # Site settings
-title: vl.maksime GitHub Блог
+title: Страница vl.maksime на GitHub
+description: Мой небольшой блог, работающий на GitHub Pages
+author: Владимир Максименко
 email: vl.maksime@gmail.com
-description: Блог vl.maksime
+github_username: vlmaksime
+
 baseurl: ""
 url: "https://vlmaksime.github.io"
-github_username:  vlmaksime
 
-# Layout settings
-header_type: default  # values [ drawer, default ]
-post_type: default    # values [ highlight, default ]
-pagination_type: default  # values [ ops, default ]
+google_analytics: UA-131785381-1
+allowsearch: false
 
-more_vert:
-  option1:
-    name: Блог
-    link: https://vlmaksime.github.io/
-  option2:
-    name: Репозиторий дополнений KODI
-    link: https://vlmaksime.github.io/repository.vlmaksime/
+enableTags: false
+tagarray: []
 
-disqus: false
-
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
 
 # Build settings
 markdown: kramdown
-remote_theme: "vlmaksime/jekyll-mdl"
-plugins:
-  - jekyll-feed
+plugins: [jekyll-paginate, jekyll-gist]
+remote_theme: "vlmaksime/material-jekyll-theme"
