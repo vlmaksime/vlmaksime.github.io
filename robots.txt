@@ -1,0 +1,9 @@
+# addons.xml
+User-agent: Googlebot
+Disallow: /repository.vlmaksime/addons.xml
+
+# addons.xml.md5
+User-agent: Googlebot
+Disallow: /repository.vlmaksime/addons.xml.md5
+
+Sitemap: http://vlmaksime.github.io/sitemapindex.xml
