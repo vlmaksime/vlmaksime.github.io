@@ -20,5 +20,8 @@ paginate_path: "/page:num/"
 
 # Build settings
 markdown: kramdown
-plugins: [jekyll-paginate, jekyll-gist]
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
 remote_theme: "vlmaksime/material-jekyll-theme"
