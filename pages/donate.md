@@ -9,3 +9,4 @@ permalink: /donate
     * WMR: R351838269476
     * WMU: U417285005187
     * WMZ: Z394348011643
+* [Яндекс.Деньги](https://money.yandex.ru/to/410016828796826)
