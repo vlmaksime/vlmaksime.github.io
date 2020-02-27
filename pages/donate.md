@@ -8,3 +8,4 @@ permalink: /donate
     * WMR: R351838269476
     * WMZ: Z394348011643
 * [QIWI Wallet](https://w.qiwi.com/p/380501483104)
+* [Яндекс.Деньги](https://money.yandex.ru/to/410016828796826)
