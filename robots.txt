@@ -4,5 +4,7 @@ layout: null
 User-agent: *
 Disallow: /repository.vlmaksime/addons.xml
 Disallow: /repository.vlmaksime/addons.xml.md5
+Disallow: /repository.vlmaksime/repo/
+Disallow: /repository.vlmaksime.test/
 
 Sitemap: {{ "/sitemap_index.xml" | prepend: site.url }}
